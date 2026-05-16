@@ -1,0 +1,186 @@
+/* =========================
+   GLOBAL WINDOW
+   ========================= */
+
+QMainWindow {
+    background-color: #1e1f26;
+}
+
+QWidget {
+    background-color: #1e1f26;
+    color: #e6e6e6;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* =========================
+   TITLE LABEL
+   ========================= */
+
+QLabel#label_title {
+    color: #00d4ff;
+    font-size: 22pt;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* =========================
+   STANDARD LABELS
+   ========================= */
+
+QLabel {
+    color: #dcdcdc;
+}
+
+/* =========================
+   PUSH BUTTONS
+   ========================= */
+
+QPushButton {
+    background-color: #2d89ef;
+    color: white;
+    border: 1px solid #1b5fa7;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #3fa2ff;
+}
+
+QPushButton:pressed {
+    background-color: #1c6fc9;
+}
+
+/* Specific button colors */
+
+QPushButton#set_laser_btn {
+    background-color: #7a1cff;
+    border: 1px solid #5b00cc;
+}
+
+QPushButton#set_laser_btn:hover {
+    background-color: #9b4dff;
+}
+
+QPushButton#set_led_btn {
+    background-color: #f0c419;
+    color: black;
+    border: 1px solid #c9a000;
+}
+
+QPushButton#set_led_btn:hover {
+    background-color: #ffd84d;
+}
+
+QPushButton#save_btn {
+    background-color: #27ae60;
+    border: 1px solid #1d8a4c;
+}
+
+QPushButton#save_btn:hover {
+    background-color: #32c96f;
+}
+
+QPushButton#pause_btn {
+    background-color: #e67e22;
+    border: 1px solid #ba6419;
+}
+
+QPushButton#pause_btn:hover {
+    background-color: #ff9838;
+}
+
+/* =========================
+   COMBO BOX
+   ========================= */
+
+QComboBox {
+    background-color: #2b2d36;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 100px;
+}
+
+QComboBox:hover {
+    border: 1px solid #00d4ff;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #2b2d36;
+    selection-background-color: #2d89ef;
+    color: white;
+}
+
+/* =========================
+   LINE EDIT
+   ========================= */
+
+QLineEdit {
+    background-color: #2b2d36;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 1px solid #00d4ff;
+}
+
+/* =========================
+   STATUS TEXT
+   ========================= */
+
+QLabel#StatusText {
+    color: #00ff99;
+    font-style: italic;
+}
+
+/* =========================
+   MENU BAR
+   ========================= */
+
+QMenuBar {
+    background-color: #2b2d36;
+    color: white;
+}
+
+QMenuBar::item:selected {
+    background-color: #2d89ef;
+}
+
+QMenu {
+    background-color: #2b2d36;
+    color: white;
+    border: 1px solid #444;
+}
+
+QMenu::item:selected {
+    background-color: #2d89ef;
+}
+
+/* =========================
+   STATUS BAR
+   ========================= */
+
+QStatusBar {
+    background-color: #2b2d36;
+    color: #dcdcdc;
+}
+
+/* =========================
+   PLOT AREA
+   ========================= */
+
+PlotWidget {
+    background-color: #111217;
+    border: 1px solid #444;
+    border-radius: 8px;
+}
