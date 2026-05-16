@@ -10,5 +10,5 @@ Arduino Version:
 2.3.8
 Board: Arduino Pro Micro 5V (programmed as Arduino Leonardo)
 
-If you need the Windows execucateble, please download it from:
+If you need the Windows executable, please download it from:
 https://sourceforge.net/projects/openspectra/
